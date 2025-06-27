@@ -1,8 +1,5 @@
 # FireTVRest
-Rest API for FireTV
-
-
-
+I was searching for a faster way to control my FireTV 4k Max gen 2 stick and could only find the abd controls. After much trial and error I was able to packet sniff the commands that the FireTV remote app uses to communicate. Below are my findings to hopefully help others.
 
 # Pin Verification
 In order to control the FireTV by HTTP we will need to acquire a token. To get the token we must first complete the pin verification process with the FireTV. The first step is to wake the FireTV with either the remote or sending a POST command.
